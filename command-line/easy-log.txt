@@ -1,0 +1,19 @@
+$ pwd
+/workspaces/linux-c-lab/command-line/command-line-easy
+$ ls
+test.txt
+$ mkdir command-line-easy && cd command-line-easy
+$ touch hello.txt
+$ cp hello.txt hello-copy.txt
+test.txt
+$ mv hello-copy.txt ../
+command-line-easy
+easy-log.txt
+hello-copy.txt
+$ rm hello.txt
+test.txt
+$ cat ../hello-copy.txt
+Hello, Linux!
+$ man ls (not captured here—open/quit with q)
+$ echo "Test" > test.txt
+Test
